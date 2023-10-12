@@ -23,7 +23,7 @@ public class TutorialScreen : MonoBehaviour
 	
 	public void PlayTutor()
 	{
-		_text.text = "Welcome to Magical Sunrise of Egypt!";
+		_text.text = "Welcome to Zeus Revenge!";
 		_text.gameObject.SetActive(true);
 		back.gameObject.SetActive(true);
 		character.gameObject.SetActive(true);
@@ -39,14 +39,14 @@ public class TutorialScreen : MonoBehaviour
 	{
 		Touch.onFingerDown -= Skip1;
 		Touch.onFingerDown += Skip2;
-		_text.text = "Leap with your ball to one plate to another with touching screen!";
+		_text.text = "Control your swinging ball by speeding it up with touching your screen!";
 	}
 	
 	private void Skip2(Finger finger)
 	{
 		Touch.onFingerDown -= Skip2;
 		Touch.onFingerDown += Skip3;
-		_text.text = "If you touch one of the edges of the screen, you will lose lives";
+		_text.text = "Avoid flying electricity chargers, they can damage and kill you";
 	}
 	
 	private void Skip3(Finger finger)

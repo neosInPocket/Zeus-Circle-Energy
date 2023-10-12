@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 5095872590682836103}
   - component: {fileID: 4905531244444461023}
   m_Layer: 5
-  m_Name: SpeedCaptionIMAGE
+  m_Name: SwingCaptionIMAGE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1399,7 @@ RectTransform:
   m_AnchorMin: {x: 0.087000005, y: 0.19926448}
   m_AnchorMax: {x: 0.49023983, y: 0.8123042}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -20.604347}
+  m_SizeDelta: {x: 0, y: -8.965138}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2017901914257835769
 GameObject:
@@ -1883,7 +1883,7 @@ RectTransform:
   m_AnchorMin: {x: 0.087000005, y: 0.19926448}
   m_AnchorMax: {x: 0.49023983, y: 0.8123042}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -115.64734}
+  m_SizeDelta: {x: 0, y: -85.82197}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2623690580716572918
 GameObject:
@@ -1924,7 +1924,7 @@ GameObject:
   - component: {fileID: 9078364424947837943}
   - component: {fileID: 6040275771018012846}
   m_Layer: 5
-  m_Name: SpeedButton
+  m_Name: SwingButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2393,7 +2393,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 117.7
+  m_fontSize: 87.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2800,7 +2800,7 @@ GameObject:
   - component: {fileID: 5883076165835930466}
   - component: {fileID: 4896120158804550138}
   m_Layer: 5
-  m_Name: SpeedPoints
+  m_Name: SwingPoints
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3406,7 +3406,7 @@ RectTransform:
   m_AnchorMin: {x: 0.087000005, y: 0.19926448}
   m_AnchorMax: {x: 0.49023983, y: 0.8123042}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -20.604328}
+  m_SizeDelta: {x: 0, y: -8.965124}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4896120158804550138
 MonoBehaviour:
@@ -3428,7 +3428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Speed upgrade: 0/3'
+  m_text: 'Swing upgrade: 0/3'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff9b7f415444db44282e5ef21c693a5b, type: 2}
   m_sharedMaterial: {fileID: 7451866852563716095, guid: ff9b7f415444db44282e5ef21c693a5b, type: 2}
@@ -3634,7 +3634,7 @@ RectTransform:
   m_AnchorMin: {x: 0.05, y: 0.7105}
   m_AnchorMax: {x: 0.95, y: 0.93074995}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 68.40239}
+  m_SizeDelta: {x: 0, y: 132.24294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &5066472063117058659
 RectTransform:
@@ -3794,7 +3794,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 117.7
+  m_fontSize: 87.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5344,7 +5344,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55.75
+  m_fontSize: 43.35
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5690,7 +5690,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 117.7
+  m_fontSize: 87.7
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

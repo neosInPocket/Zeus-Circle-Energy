@@ -52,6 +52,7 @@ public class PlayerController : MonoBehaviour
 		trailRenderer.enabled = true;
 		isDead = false;
 		zapSpawner.Initialize();
+		trailRenderer.Clear();
 	}
 	
 	private void Update()

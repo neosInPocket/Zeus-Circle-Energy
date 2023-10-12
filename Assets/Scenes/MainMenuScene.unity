@@ -1205,7 +1205,7 @@ GameObject:
   - component: {fileID: 6837510693790959103}
   - component: {fileID: 8276662363330829552}
   m_Layer: 5
-  m_Name: UIBackgroundCanvas
+  m_Name: BackUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2716,7 +2716,7 @@ GameObject:
   - component: {fileID: 4856021008789399564}
   - component: {fileID: 4856021008789399565}
   m_Layer: 0
-  m_Name: MenuController
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3094,7 +3094,7 @@ GameObject:
   - component: {fileID: 7695083157453111413}
   - component: {fileID: 7695083157453111414}
   m_Layer: 0
-  m_Name: EnterPoint
+  m_Name: Entry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4315,7 +4315,7 @@ GameObject:
   - component: {fileID: 9149595508662149662}
   - component: {fileID: 4948842530486216202}
   m_Layer: 5
-  m_Name: UICanvas
+  m_Name: MainCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5894,7 +5894,7 @@ GameObject:
   - component: {fileID: 1119537288123215394}
   - component: {fileID: 8287416874061844324}
   m_Layer: 0
-  m_Name: AudioController
+  m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5913,7 +5913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _music: {fileID: 9103708250549360691}
-  circleChanged: {fileID: 0}
+  coinSpawned: {fileID: 0}
 --- !u!222 &8466181645474816009
 CanvasRenderer:
   m_ObjectHideFlags: 0

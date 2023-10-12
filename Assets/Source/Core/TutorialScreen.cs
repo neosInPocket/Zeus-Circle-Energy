@@ -10,10 +10,6 @@ using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 public class TutorialScreen : MonoBehaviour
 {
 	[SerializeField] private TMP_Text _text;
-	[SerializeField] private Image healthZoneArrow; 
-	[SerializeField] private Image rightArrow; 
-	[SerializeField] private Image leftArrow; 
-	[SerializeField] private Image ballArrow;
 	[SerializeField] private Image character;
 	[SerializeField] private Image back;	
 	public Action TutorialEnd;

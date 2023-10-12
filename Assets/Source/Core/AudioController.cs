@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
 	[SerializeField] private AudioSource _music;
-	[SerializeField] private AudioSource circleChanged;
+	[SerializeField] private AudioSource coinSpawned;
 	
 	public float volume => _music.volume;
 	public static float GameVolume = 1f;
@@ -25,9 +25,9 @@ public class AudioController : MonoBehaviour
 	{
 		switch (type)
 		{
-			case AudioTypes.CircleChanged:
-				if (circleChanged == null) return;
-				circleChanged.Play();
+			case AudioTypes.coinSpawned:
+				if (coinSpawned == null) return;
+				coinSpawned.Play();
 				break;
 		}
 		

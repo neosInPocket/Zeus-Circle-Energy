@@ -18,7 +18,9 @@ public class GameController : MonoBehaviour
 	[SerializeField] private WinScreenWithCoins _winScreen; 
 	[SerializeField] private ProgressBar _levelProgress;
 	[SerializeField] private Transform coinContainer;
-	[SerializeField] private Transform circleContainer;
+	[SerializeField] private Transform zapContainer;
+	[SerializeField] private PlayerController player;
+	[SerializeField] private CameraBehaviour cameraBehaviour;
 	private float _playDelay;
 	public static int _levelCoins;
 	private static int _levelMaxPoints;
@@ -31,10 +33,18 @@ public class GameController : MonoBehaviour
 	{
 		_isPlaying = false;
 		Initialize();
+		
+		player.TakeDamageEvent += OnEventHandler;
 	}
 	
 	public void Initialize()
 	{
+		DeleteCoins();
+		DeleteObjects();
+		SetPlayerDefaults();
+		player.Initialize();
+		cameraBehaviour.Initialize();
+		
 		_isPlaying = false;
 		isWon = false;
 		
@@ -70,6 +80,12 @@ public class GameController : MonoBehaviour
 		_countDownScreen.gameObject.SetActive(true);
 		_countDownScreen.Show();
 		StartCoroutine(PlayDelay());
+	}
+	
+	private void SetPlayerDefaults()
+	{
+		player.SpriteRenderer.color = new Color(1f, 1f, 1f, 1f);
+		player.TrailRenderer.Clear();
 	}
 	
 	private void OnEventHandler(bool value)
@@ -132,5 +148,21 @@ public class GameController : MonoBehaviour
 	{
 		var progress = _points / _levelMaxPoints;
 		_levelProgress.Refresh(progress);
+	}
+	
+	public void DeleteObjects()
+	{
+		foreach (Transform child in zapContainer)
+		{
+			Destroy(child.gameObject);
+		}
+	}
+	
+	public void DeleteCoins()
+	{
+		foreach (Transform coin in coinContainer)
+		{
+			Destroy(coin.gameObject);
+		}
 	}
 }

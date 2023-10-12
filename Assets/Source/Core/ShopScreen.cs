@@ -8,7 +8,7 @@ public class ShopScreen : MonoBehaviour
 {
 	[SerializeField] private Button _speedButton;
 	[SerializeField] private Button _livesButton;
-	[SerializeField] private TMP_Text rotSpeedUpgradeAmount;
+	[SerializeField] private TMP_Text speedUpgradeAmount;
 	[SerializeField] private TMP_Text _maxLivesUpgradeAmount;
 	[SerializeField] private TMP_Text _coinsText;
 	
@@ -37,7 +37,7 @@ public class ShopScreen : MonoBehaviour
 		{
 			return;
 		}
-		MainMenuController.CurrentRotationSpeedUpgrade++;
+		MainMenuController.CurrentSwingUpgrade++;
 		MainMenuController.Coins -= 50;
 		SaveLoad.Save();
 		Refresh();
@@ -48,10 +48,10 @@ public class ShopScreen : MonoBehaviour
 		_speedButton.interactable = true;
 		_livesButton.interactable = true;
 		_coinsText.text = MainMenuController.Coins.ToString();
-		rotSpeedUpgradeAmount.text = "Rot. speed upgrade: " + MainMenuController.CurrentRotationSpeedUpgrade.ToString() + "/3";
+		speedUpgradeAmount.text = "Swing speed upgrade: " + MainMenuController.CurrentSwingUpgrade.ToString() + "/3";
 		_maxLivesUpgradeAmount.text = "Max lives: " + MainMenuController.CurrentLivesUpgrade.ToString() + "/3";
 		
-		if (MainMenuController.CurrentRotationSpeedUpgrade == 3 || MainMenuController.Coins - 50 < 0)
+		if (MainMenuController.CurrentSwingUpgrade == 3 || MainMenuController.Coins - 50 < 0)
 		{
 			_speedButton.interactable = false;
 		}

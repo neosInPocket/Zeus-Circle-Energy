@@ -23,7 +23,7 @@ public class TutorialScreen : MonoBehaviour
 	
 	public void PlayTutor()
 	{
-		_text.text = "Welcome to Zeus Revenge!";
+		_text.text = "Welcome to Zeus Circle Energy!";
 		_text.gameObject.SetActive(true);
 		back.gameObject.SetActive(true);
 		character.gameObject.SetActive(true);

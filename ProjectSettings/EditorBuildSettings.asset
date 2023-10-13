@@ -11,4 +11,61 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene.unity
+    guid: 3d792b931475c004782e72b0c13a8750
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 1.unity
+    guid: 337be7a2e49b9024396fa968f89ec864
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 2.unity
+    guid: 363bcf0eee10fd34ca9e451eb0dd1bab
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 3.unity
+    guid: b582964631a9a964a96756894a80e120
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 4.unity
+    guid: b2ba69dd52d935447a7af21e48120045
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 5.unity
+    guid: b5b23809790862b46816dda7f5bc489d
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 6.unity
+    guid: e0e9d68748e49484399bbd2ed1329a53
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 7.unity
+    guid: a3125b1e9544b1b49ad1d4448b90cd02
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 8.unity
+    guid: 56befa2dab891af41a1bd2b1edffda32
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 9.unity
+    guid: 07c6c7d00b322674694eb6eccd442a8f
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 10.unity
+    guid: c8593d9d0eacc3a4e9bf0331805ba996
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 11.unity
+    guid: 48f0136d3942a7348b030a752069937e
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 12.unity
+    guid: 5407a1e978ae4154db9a5ba8ebef7b2e
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 13.unity
+    guid: 364fbb01d3c1e0b40a604bae594cb089
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 14.unity
+    guid: f7f065b56cef38348bdc2c34808f9709
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 15.unity
+    guid: 646574ddf9d245a4c97e6a47cc3cfb22
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 16.unity
+    guid: e5e3e9c64b47868478ff7fbe9382aa73
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 17.unity
+    guid: 1145e771ece80ca44a4fe49cff4dcb1f
+  - enabled: 1
+    path: Assets/Scenes/AdventureScene 18.unity
+    guid: 297f84d0edcfc4d4b8f26b834066d780
   m_configObjects: {}

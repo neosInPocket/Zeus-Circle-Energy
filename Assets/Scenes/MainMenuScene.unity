@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Zeus Revenge
+  m_text: Zeus Circle Energy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff9b7f415444db44282e5ef21c693a5b, type: 2}
   m_sharedMaterial: {fileID: 7451866852563716095, guid: ff9b7f415444db44282e5ef21c693a5b, type: 2}

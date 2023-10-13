@@ -48,8 +48,8 @@ public class ShopScreen : MonoBehaviour
 		_speedButton.interactable = true;
 		_livesButton.interactable = true;
 		_coinsText.text = MainMenuController.Coins.ToString();
-		speedUpgradeAmount.text = "Swing speed upgrade: " + MainMenuController.CurrentSwingUpgrade.ToString() + "/3";
-		_maxLivesUpgradeAmount.text = "Max lives: " + MainMenuController.CurrentLivesUpgrade.ToString() + "/3";
+		speedUpgradeAmount.text = MainMenuController.CurrentSwingUpgrade.ToString() + "/3";
+		_maxLivesUpgradeAmount.text = MainMenuController.CurrentLivesUpgrade.ToString() + "/3";
 		
 		if (MainMenuController.CurrentSwingUpgrade == 3 || MainMenuController.Coins - 50 < 0)
 		{
